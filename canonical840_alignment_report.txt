@@ -1,0 +1,36 @@
+CANONICAL QUATERNIONIC 840 ALIGNMENT
+===================================
+
+The optimization alternates exact Hungarian assignments with orthogonal Procrustes updates from multiple structural starts.
+Because the joint permutation/orthogonal problem is nonconvex, the value below is the best value found, not a proof of the global minimum.
+
+Input file: gram841_coordinates.txt
+Deleted original one-based row: 751
+Canonical coordinate file: canonical840.txt
+Numerical coordinate file: 840_from_841.txt
+
+Total squared error: 11.962416549554639
+Mean squared error: 0.014240972082803142
+RMS Euclidean error: 0.11933554408810118
+Maximum squared error: 0.4009249784394493
+det(U): -1.0000000000000018
+Maximum orthogonality error: 1.332e-15
+
+Canonical rows 1--816 (E1,E2,M1,M2):
+  total squared error: 4.6660150122674064
+  RMS Euclidean error: 0.075618487503311571
+  maximum squared error: 0.047926261033117555
+
+Canonical rows 817--840 (E3 in the last R^4):
+  total squared error: 7.2964015372872337
+  RMS Euclidean error: 0.55137712205014577
+  minimum squared error: 0.058065713238283273
+  maximum squared error: 0.4009249784394493
+
+E3 vectors among the 24 largest residuals: 24/24
+Do all 24 largest residuals belong to E3? True
+Do the 24 largest-residual numerical rows equal the 24 rows detected independently by largest last-R4 projection energy? True
+
+Order-statistic boundary e_(816): 0.047926261033117555
+Order-statistic boundary e_(817): 0.058065713238283273
+Largest order statistic e_(840): 0.4009249784394493
