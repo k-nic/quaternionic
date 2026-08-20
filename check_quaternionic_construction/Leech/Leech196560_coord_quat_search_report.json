@@ -1,0 +1,29 @@
+{
+  "result": "NOT_FOUND",
+  "input": "Leech196560_coord.txt",
+  "N": 196560,
+  "dimension": 24,
+  "k": 6,
+  "O_rule": "strict2o",
+  "search": {
+    "status": "not_found",
+    "complete": false,
+    "elapsed_seconds": 3479.738299846649,
+    "line_count": 98280,
+    "basis_pool": {
+      "heuristic": true,
+      "support_threshold": 2,
+      "pool_size_before_cap": 552,
+      "pool_size": 552,
+      "pool_is_all_lines": false,
+      "cap": 4000
+    },
+    "anchors_used": 98280,
+    "frames_tested": 5355504,
+    "certified_24cell_spans": 648186,
+    "admissible_vertices": 0,
+    "projection_rejects": 648186,
+    "duplicate_spans": 4707318
+  },
+  "interpretation": "Fast/limited search did not find a certificate. This is NOT a proof of nonexistence."
+}
