@@ -1,0 +1,486 @@
+{
+  "result": "QUATERNIONIC_CONSTRUCTION_FOUND",
+  "input": "barnes_wall_4320_R16_normalized.txt",
+  "N": 4320,
+  "dimension": 16,
+  "k": 4,
+  "O_rule": "strict2o",
+  "transform_convention": "X_rotated = X @ transform; transform columns are the selected frame vectors",
+  "search": {
+    "status": "success",
+    "complete": true,
+    "elapsed_seconds": 4.963169574737549,
+    "line_count": 2160,
+    "basis_pool": {
+      "heuristic": true,
+      "support_threshold": 2,
+      "pool_size_before_cap": 240,
+      "pool_size": 240,
+      "pool_is_all_lines": false,
+      "cap": 4000
+    },
+    "anchors_used": 43,
+    "frames_tested": 7771,
+    "certified_24cell_spans": 1107,
+    "admissible_vertices": 99,
+    "projection_rejects": 1008,
+    "duplicate_spans": 6664,
+    "clique_vertex_ids": [
+      4,
+      23,
+      57,
+      98
+    ],
+    "orthogonality_error": 2.220446049250313e-16
+  },
+  "blocks": [
+    {
+      "block": 0,
+      "anchor_line": 0,
+      "frame_line_ids": [
+        162,
+        165,
+        312,
+        313
+      ],
+      "basis_rows": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.7071067811865476,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.7071067811865476
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.7071067811865476
+        ]
+      ],
+      "projection": {
+        "stage": "full_pass",
+        "zero_projections": 648,
+        "number_of_shells": 3,
+        "shells": [
+          {
+            "radius": 0.5000000000000001,
+            "radius_squared": 0.2500000000000001,
+            "projected_points": 3072,
+            "distinct_directions": 24,
+            "in_O": true
+          },
+          {
+            "radius": 0.7071067811865478,
+            "radius_squared": 0.5000000000000003,
+            "projected_points": 576,
+            "distinct_directions": 24,
+            "in_O": true
+          },
+          {
+            "radius": 1.0000000000000002,
+            "radius_squared": 1.0000000000000004,
+            "projected_points": 24,
+            "distinct_directions": 24,
+            "in_O": true
+          }
+        ]
+      }
+    },
+    {
+      "block": 1,
+      "anchor_line": 6,
+      "frame_line_ids": [
+        332,
+        339,
+        614,
+        619
+      ],
+      "basis_rows": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.7071067811865476,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.7071067811865476,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.0,
+          0.0
+        ]
+      ],
+      "projection": {
+        "stage": "full_pass",
+        "zero_projections": 648,
+        "number_of_shells": 3,
+        "shells": [
+          {
+            "radius": 0.5000000000000001,
+            "radius_squared": 0.2500000000000001,
+            "projected_points": 3072,
+            "distinct_directions": 24,
+            "in_O": true
+          },
+          {
+            "radius": 0.7071067811865478,
+            "radius_squared": 0.5000000000000003,
+            "projected_points": 576,
+            "distinct_directions": 24,
+            "in_O": true
+          },
+          {
+            "radius": 1.0000000000000002,
+            "radius_squared": 1.0000000000000004,
+            "projected_points": 24,
+            "distinct_directions": 24,
+            "in_O": true
+          }
+        ]
+      }
+    },
+    {
+      "block": 2,
+      "anchor_line": 20,
+      "frame_line_ids": [
+        1150,
+        1161,
+        2140,
+        2149
+      ],
+      "basis_rows": [
+        [
+          0.0,
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.7071067811865476,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.7071067811865476,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "projection": {
+        "stage": "full_pass",
+        "zero_projections": 648,
+        "number_of_shells": 3,
+        "shells": [
+          {
+            "radius": 0.5000000000000001,
+            "radius_squared": 0.2500000000000001,
+            "projected_points": 3072,
+            "distinct_directions": 24,
+            "in_O": true
+          },
+          {
+            "radius": 0.7071067811865478,
+            "radius_squared": 0.5000000000000003,
+            "projected_points": 576,
+            "distinct_directions": 24,
+            "in_O": true
+          },
+          {
+            "radius": 1.0000000000000002,
+            "radius_squared": 1.0000000000000004,
+            "projected_points": 24,
+            "distinct_directions": 24,
+            "in_O": true
+          }
+        ]
+      }
+    },
+    {
+      "block": 3,
+      "anchor_line": 106,
+      "frame_line_ids": [
+        120,
+        135,
+        138,
+        151
+      ],
+      "basis_rows": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.7071067811865476,
+          -0.7071067811865476,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.0,
+          0.0,
+          -0.7071067811865476,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.7071067811865476,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      "projection": {
+        "stage": "full_pass",
+        "zero_projections": 648,
+        "number_of_shells": 3,
+        "shells": [
+          {
+            "radius": 0.5000000000000001,
+            "radius_squared": 0.2500000000000001,
+            "projected_points": 3072,
+            "distinct_directions": 24,
+            "in_O": true
+          },
+          {
+            "radius": 0.7071067811865478,
+            "radius_squared": 0.5000000000000003,
+            "projected_points": 576,
+            "distinct_directions": 24,
+            "in_O": true
+          },
+          {
+            "radius": 1.0000000000000002,
+            "radius_squared": 1.0000000000000004,
+            "projected_points": 24,
+            "distinct_directions": 24,
+            "in_O": true
+          }
+        ]
+      }
+    }
+  ]
+}
