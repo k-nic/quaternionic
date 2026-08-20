@@ -1,0 +1,29 @@
+{
+  "result": "NOT_FOUND",
+  "input": "R28_PackingStar_204520_coord.txt",
+  "N": 204520,
+  "dimension": 28,
+  "k": 7,
+  "O_rule": "strict2o",
+  "search": {
+    "status": "not_found",
+    "complete": false,
+    "elapsed_seconds": 3066.3054599761963,
+    "line_count": 96308,
+    "basis_pool": {
+      "heuristic": true,
+      "support_threshold": 2,
+      "pool_size_before_cap": 544,
+      "pool_size": 544,
+      "pool_is_all_lines": false,
+      "cap": 4000
+    },
+    "anchors_used": 96296,
+    "frames_tested": 4804227,
+    "certified_24cell_spans": 503596,
+    "admissible_vertices": 0,
+    "projection_rejects": 503596,
+    "duplicate_spans": 3655204
+  },
+  "interpretation": "Fast/limited search did not find a certificate. This is NOT a proof of nonexistence."
+}
